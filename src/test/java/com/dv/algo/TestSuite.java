@@ -4,7 +4,7 @@ package com.dv.algo;
  * Created by dvijayan on 10/14/19.
  */
 
-import com.dv.algo.strings.StringAlgoTest;
+import com.dv.algo.strings.test.StringAlgoTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
