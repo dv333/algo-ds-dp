@@ -1,4 +1,4 @@
-package com.dv.algo.strings;
+package com.dv.algo.strings.test;
 
 import org.junit.*;
 
@@ -25,25 +25,25 @@ public class StringAlgoTest {
         Map<Character, Integer> returnMap = null;
 
         // Valid String
-        returnMap = StringAlgoImpl.printDuplicateCharactersInAString("Java");
+        returnMap = StringAlgoImpl.findDuplicateCharactersInAString("Java");
         Assert.assertTrue(returnMap != null);
         Assert.assertTrue(returnMap.get(new Character('a')) == 2);
 
         // Only one char
-        returnMap = StringAlgoImpl.printDuplicateCharactersInAString("J");
+        returnMap = StringAlgoImpl.findDuplicateCharactersInAString("J");
         Assert.assertTrue(returnMap == null);
 
         // Two spaces
-        returnMap = StringAlgoImpl.printDuplicateCharactersInAString("  ");
+        returnMap = StringAlgoImpl.findDuplicateCharactersInAString("  ");
         Assert.assertTrue(returnMap != null);
         Assert.assertTrue(returnMap.get(new Character(' ')) == 2);
 
 
-        returnMap = StringAlgoImpl.printDuplicateCharactersInAString("The Java Programming");
+        returnMap = StringAlgoImpl.findDuplicateCharactersInAString("The Java Programming");
         Assert.assertTrue(returnMap != null);
         Assert.assertTrue(returnMap.get(new Character(' ')) == 2);
 
-        returnMap = StringAlgoImpl.printDuplicateCharactersInAString(null);
+        returnMap = StringAlgoImpl.findDuplicateCharactersInAString(null);
         Assert.assertTrue(returnMap == null);
     }
 
