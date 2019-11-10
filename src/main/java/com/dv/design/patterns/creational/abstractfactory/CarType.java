@@ -1,4 +1,4 @@
-package com.dv.design.patterns.abstractfactory;
+package com.dv.design.patterns.creational.abstractfactory;
 
 public enum CarType {
 

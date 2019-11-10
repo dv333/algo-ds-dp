@@ -1,4 +1,4 @@
-package com.dv.design.patterns.singleton;
+package com.dv.design.patterns.creational.singleton;
 
 /**
  * Read more here : https://dzone.com/articles/java-singletons-using-enum

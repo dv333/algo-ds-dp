@@ -1,4 +1,4 @@
-package com.dv.design.patterns.builder;
+package com.dv.design.patterns.creational.builder;
 
 public class User {
 

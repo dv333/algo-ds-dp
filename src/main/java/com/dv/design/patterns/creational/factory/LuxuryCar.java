@@ -1,4 +1,4 @@
-package com.dv.design.patterns.factory;
+package com.dv.design.patterns.creational.factory;
 
 public class LuxuryCar extends Car {
 

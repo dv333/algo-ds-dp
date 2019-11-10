@@ -1,4 +1,4 @@
-package com.dv.design.patterns.factory;
+package com.dv.design.patterns.creational.factory;
 
 /**
  * Refer here: https://howtodoinjava.com/design-patterns/creational/implementing-factory-design-pattern-in-java/

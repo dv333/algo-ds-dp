@@ -1,8 +1,9 @@
 package com.dv.design.patterns.builder.test;
 
-import com.dv.design.patterns.builder.User;
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.dv.design.patterns.creational.builder.User;
 
 public class BuilderPatternTest {
 
