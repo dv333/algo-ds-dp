@@ -31,3 +31,14 @@ Structural design patterns show how to glue different pieces of a system togethe
 Behavior design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
 > * This patterns are all about different ways to communicate between objects, i.e. the ways objects are interconnected.
+
+	1. Chain of responsibility design pattern
+	2. Command design pattern
+	3. Iterator design pattern
+	4. Mediator design pattern
+	5. Memento design pattern
+	6. Observer design pattern
+	7. State design pattern
+	8. Strategy design pattern
+	9. Template design pattern
+	10. Visitor design pattern
